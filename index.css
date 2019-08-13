@@ -7,6 +7,14 @@ a {
     color: #000;
 }
 
+body {
+    background: #093637;
+}
+
+#contain {
+    margin: 50px 100px;
+}
+
 .header, 
 #search {
     display: flex;
@@ -15,9 +23,29 @@ a {
     font-size: 24px;
 }
 
+.header {
+    background: #44A08D;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+input {
+    font-size: 18px;
+    text-align: center;
+}
+
 .results-container {
     display: flex;
     justify-content: center;
+}
+
+#search,
+.results-container {
+    background: #fff;
+}
+
+#search {
+    padding: 20px 0;
 }
 
 ul {
