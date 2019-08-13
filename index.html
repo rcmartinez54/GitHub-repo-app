@@ -8,23 +8,26 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="header">
-            <h1>Search for a GitHub Handle</h1>
-        </header>
-        <section id="search">
-            <div class="search-container">
-                <form id="js-get-handle-form">
-                    <label for="handle-entry">Enter the GitHub handle</label>
-                    <input type="text" name="handle-entry" id="handle-entry" placeholder="enter handle here">
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </section>
-        <section id="results">
-            <div class="results-container">
+        <div id="contain" class="app-container">
+            <header class="header">
+                <h1>Search for a GitHub Handle</h1>
+            </header>
+            <section id="search">
+                <div class="search-container">
+                    <form id="js-get-handle-form">
+                        <label for="handle-entry">Enter the GitHub handle</label>
+                        <input type="text" name="handle-entry" id="handle-entry" placeholder="enter handle here">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <section id="results">
+                <div class="results-container">
+    
+                </div>
+            </section>
+        </div>
 
-            </div>
-        </section>
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
